@@ -1,16 +1,10 @@
-import Barients  from './components/Typographye'
+import React from 'react'
+import Header from './components/Header'
 
-
-function App() {
+export default function App() {
   return (
-    <div className="App">
-
-      <Barients />
-
-
-
+    <div>
+      <Header />
     </div>
-  );
+  )
 }
-
-export default App;
