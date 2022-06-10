@@ -4,6 +4,7 @@ import Toolbar from '@mui/material/Toolbar'
 import Box from '@mui/material/Box'
 import Typography from '@mui/material/Typography'
 import Logo from './img/millat.svg'
+import Button from '@mui/material/Button'
 
 
 export default function Header() {
@@ -27,12 +28,7 @@ export default function Header() {
       </AppBar>
       <AppBar position="fixed" color="primary" />
       <Toolbar>
-        <Typography variant="h6">
-
-            <Typography variant="div">
-              hello
-            </Typography>
-
+        <Typography variant="div">
         </Typography>
       </Toolbar>
     </header>
